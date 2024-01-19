@@ -117,3 +117,13 @@
 footer {
     padding: 150px 0;
 }
+
+.whatsappBtn {
+    all: unset;
+    padding: 10px;
+    background: #00D95F;
+    border-radius: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}

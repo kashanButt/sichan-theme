@@ -24,7 +24,7 @@
     overflow: visible;
 }
 
-.secondSwiper .swiper-slide {
+.secondSwiper:nth-of-type(1) .swiper-slide {
     width: 80%;
     margin-left: -5px;
 }
