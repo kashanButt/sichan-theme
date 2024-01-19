@@ -114,6 +114,15 @@
     opacity: 100;
 }
 
+.menus .item .row {
+    border-bottom: 1px solid grey;
+    margin-right: 10px;
+}
+
+.menus .item .row span {
+    color: grey;
+}
+
 footer {
     padding: 150px 0;
 }
