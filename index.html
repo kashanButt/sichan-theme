@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siachan</title>
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+            <nav class="col-4 nav navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item p-2">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="navbar-item p-2">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="navbar-item p-2">
+                            <a class="nav-link" href="meal-plans/">Meal Plans</a>
+                        </li>
+                        <li class="navbar-item p-2">
+                            <a class="nav-link" href="#">Login/Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <img src="assets/images/Siachen logo F-01.png" alt="Company Logo" width="100">
+            </div>
+
+            <div class="col-4 d-flex align-items-center justify-content-end">
+                <button class="btn">Subscribe</button>
+                <a href="#" class="btn btn-dark rounded-5 px-4">Order</a>
+            </div>
+        </div>
+    </header>
+    <section class="w-100" id="home-hero">
+        <div class="container h-100 d-flex align-items-center" id="home-hero-content">
+            <div class="col-6 p-2 text-white text-wrap">
+                <h1 class="fs-1 fw-bold">Welcome To KL's Culinary Heaven</h1>
+                <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad error id in,
+                    fugit
+                    assumenda minima
+                    magni illum fuga exercitationem nihil reprehenderit mollitia molestiae vitae aspernatur dolores
+                    ullam vel ea voluptatibus itaque ab.</p>
+                <button class="btn btn-dark px-4 py-2 fw-bold rounded-0 border-0">Explore</button>
+            </div>
+        </div>
+    </section>
+    <section class="container justify-content-center align-items-center" id="home-slider">
+        <div class="w-100 text-center d-flex flex-column gap-3 my-5">
+            <h1 class="fs-1 fw-bold lh-1">Let our chefs take care <br>of your next meal.</h1>
+            <p class="text-wrap">Our food starts with clean ingredients, which is why we only source the best. Don’t
+                believe us? Try and see for yourself.</p>
+        </div>
+        <div class="container">
+            <div class="swiper firstSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/images/chilli-dry-with-egg-fried-rice-768x768.jpg (1).webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/manchurian-with-rice-768x768.jpg.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/peshawri-karahi2-768x768.jpg.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/chowmein-768x768.jpg.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/chilli-dry-with-egg-fried-rice-768x768.jpg (1).webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/images/Tikka-biryani-768x768.jpg.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="dishes container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./assets/images/Zinger-burger-768x885.jpg.webp" alt="Image" class="img-fluid mb-3">
+                <p class="fs-3 lh-1">Our menus offer<br>
+                    The perfect combination of<br>
+                    quality and quantity</p>
+            </div>
+            <div class="col-md-6">
+                <p class="fs-3 lh-1 mb-4">Your go-to option<br>
+                    for delicious<br>
+                    and tasty dishes.
+                </p>
+                <img src="./assets/images/Zinger-burger-768x885.jpg.webp" alt="Image" class="img-fluid mb-3">
+                <button class="btn btn-dark px-4 py-2 rounded-0 fs-4">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="tasteBuds bg-black text-light">
+        <div class="container my-5 py-5 d-flex align-items-center flex-column gap-3">
+            <h1 class="fs-1">Chef-crafted flavors designed for the desi tastebud.</h1>
+            <img src="./assets/images/IMG_3501-1-q92pxyfgo0upencdphelo51we4pyguyp941u9yu3gw.jpg" alt=""
+                class="w-20 img-fluid tastebudImg">
+        </div>
+    </section>
+    <section class="premiumFoods">
+        <div class="container d-flex flex-column align-items-center justify-content-center gap-5">
+            <h1 class="fs-1 mx-5 lh-1 text-center">Join today to introduce yourself to a world of convenience.</h1>
+            <img src="assets/images/Siachen logo F-01.png" alt="" class="img-fluid" id="displayLogo"
+                onchange="changeLogoDisplay()">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="fs-2">Premium Ingredients</h2>
+                    <p class="fs-4 lh-1 mb-5">We go the extra mile to source the crème de la crème of ingredients. Each
+                        bite
+                        is a
+                        testament to
+                        our commitment to
+                        quality, ensuring your meals are nothing short of extraordinary.</p>
+                    <img src="./assets/images/image00022-768x1024.jpeg.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex flex-column gap-2">
+                    <img src="./assets/images/IMG_3008-e1687533821516-791x1024.webp" class="img-fluid" alt="">
+                    <h2 class="fs-2 mt-5">Premium Ingredients</h2>
+                    <p class="fs-4 lh-1">We go the extra mile to source the crème de la crème of ingredients. Each bite
+                        is a
+                        testament to
+                        our commitment to
+                        quality, ensuring your meals are nothing short of extraordinary.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faqs bg-black text-light">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6 d-flex flex-column">
+                    <img src="./assets/images/image00005-1-1024x697.jpeg.webp" class="img-fluid">
+                    <h2 class="lh-1">Chef-crafted meals, charged with nutrition and delivered straight to your
+                        door.
+                    </h2>
+                    <ul class="fs-3">
+                        <li class="list-group-item">Meal Plan</li>
+                        <li class="list-group-item">Need Help? Ask Us</li>
+                        <li class="list-group-item">Frequently Asked Questions</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 d-flex flex-column gap-3 align-items-end">
+                    <img src="./assets/images/garlic-naan-2-scaled-q92ogn110bv6uwsf1fqf8lendbifuxat97wcaxw0eo.jpg"
+                        class="img-fluid text-right">
+                    <h2 class="lh-1">You deserve the best, and we're here to deliver it.
+                    </h2>
+                    <ul class="text-right fs-3">
+                        <li class="list-group-item">Menu</li>
+                        <li class="list-group-item">Live Ordering</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonals">
+        <div class="container">
+            <div class="swiper secondSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide d-flex flex-column align-items-center justify-content-center py-5 p-5">
+                        <p class="mb-4">In all honesty, the BEST food subscription I've been a part of. Not only is the
+                            food extremely reasonable, tasty, and
+                            alot in quantity, they go above and beyond to make sure your opinions are valued. Would
+                            suggest this to everyone. Try
+                            only a week if need be and you'll understand what they offer.</p>
+                        <h4>Umair Shah</h4>
+                        <span>Dinner Subscriber</span>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column align-items-center justify-content-center py-5">
+                        <p class="mb-4">The delivery has always been timely. I never have to worry that my lunch would
+                            be late or need to text the rider.
+                            The quantity of the food is always more than enough. I’m an adult but there have been times
+                            where I’ve had to share the
+                            meal with someone because I can’t eat it all on my own. Also, it’s healthy and rarely ever
+                            oily like at restaurants.
+                            Really very happy with the service.</p>
+                        <h4>Tahamul</h4>
+                        <span>Lunch Subscriber</span>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column align-items-center justify-content-center py-5">
+                        <p class="mb-4">Kohe Lazat is my lifesaver. Being a working mom of three kids and studying
+                            myself, cooking daily was a challenge. On a
+                            random insta suggestion, I ordered the one week meal plan for my family and voila! It was
+                            such a great experience that
+                            this is the second month I am getting their monthly package meals (Mon to Fri).
+                            To be honest, my kids look forward to dinner everyday while coming back from school and now
+                            they do not skip a single
+                            meal time simply because Kohe Lazat has delicious meals. Well packed, fulfilling quantity,
+                            timely delivery and pocket
+                            friendly.</p>
+                        <h4>Mehroze Qamar</h4>
+                        <span>Lunch/Dinner Subscriber</span>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column align-items-center justify-content-center py-5">
+                        <p class="mb-4">It was our first time trying Kohe Lazat. We really liked the food. It was fresh,
+                            well packed
+                            and tasted great too! Not
+                            only that, it’s also very affordable especially for students like myself. Looking forward to
+                            the rest of the meals!</p>
+                        <h4>Zenab Maroof</h4>
+                        <span>Dinner Subscriber</span>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black text-light">
+        <div class="container lh-1">
+            <h2 class="fs-1">Where We're Located:</h2>
+            <p class="fs-3">Korangi Creek Cantonment, Karachi.</p>
+            <p class="fs-3 mb-5">+92 325 2658169</p>
+
+            <h2 class="fs-1">Get Directions</h2>
+
+            <h2 class="fs-1">Monday to Saturday</h2>
+            <p class="fs-3 mb-4">11am-11pm</p>
+            <p class="fs-1"><i class='bx bxl-facebook-circle'></i> <i class='bx bxl-instagram'></i></p>
+        </div>
+    </footer>
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+@import "./swiper.css";
+
+#home-hero {
+    background-image: url("../images/IMG_3428-1536x1536.jpg");
+    background-size: cover;
+    background-position: center -550px;
+    background-repeat: no-repeat;
+    height: 370px;
+}
+
+.tasteBuds {
+    height: 600px;
+}
+
+.tasteBuds .container {
+    position: relative;
+}
+
+.tastebudImg {
+    width: 70%;
+    height: 600px;
+    position: absolute;
+    top: 130px;
+}
+
+.premiumFoods {
+    margin-top: 300px;
+    position: relative;
+}
+
+.premiumFoods img {
+    width: 15%;
+}
+
+.premiumFoods .row div {
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.premiumFoods .row div img {
+    width: 60%;
+    height: 400px;
+}
+
+.premiumFoods .row div:nth-of-type(1) {
+    padding-right: 100px;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.premiumFoods .row div:nth-of-type(2) {
+    padding-left: 100px;
+}
+
+.faqs .container .row div:nth-of-type(1) {
+    margin-top: 300px;
+}
+
+.faqs .container .row div:nth-of-type(2) {
+    text-align: right;
+}
+
+.faqs .container .row div img {
+    width: 85%;
+}
+
+.faqs .container .row div:nth-of-type(2) img {
+    margin-top: -150px;
+}
+
+.faqs .container .row div h2 {
+    font-size: 50px;
+}
+
+.faqs .container .row div:nth-of-type(1) h2 {
+    width: 70%;
+    transform: translate(350px, -60px);
+}
+
+.faqs .container .row div ul {
+    text-align: right;
+}
+
+.faqs .container .row div ul li::before {
+    content: '\2022';
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+}
+
+/* Menu Plans */
+.currentPlan {
+    margin-top: 100px;
+}
+
+.mealSub li {
+    list-style: none;
+    text-align: right;
+}
+
+.mealSub li::before {
+    content: '\2022';
+    display: inline-block;
+    width: 1em;
+    margin-left: -2em;
+}
+
+.mealSub span:nth-of-type(1) {
+    color: grey;
+}
+
+.howItWorks hr,
+.testimonals hr {
+    width: 40%;
+    opacity: 100;
+}
+
+footer {
+    padding: 150px 0;
+}
